@@ -1,0 +1,77 @@
+#sec3{
+  width: 1440px;
+  height: 2180px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#sec3-title1{
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+#sec3-title2{
+  position: absolute;
+  right: 460px;
+  top: 195px;
+}
+#sec3-text-box{
+  width: 900px;
+  position: relative;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  top: 340px;
+}
+#sec3-text-box p{
+  color: #12100d;
+}
+
+#sec3 #pic-box{
+  width: 1440px;
+  height: 1335px;
+  position: absolute;
+  top: 610px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#sec3 #pic-box div{
+  width: 474px;
+  height: 630px;
+  background-color: white;
+  box-shadow: 10px 6px 20px rgba(1,1,1,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#sec3 #pic-box div img{
+  width: 100%;
+  height: 315px;
+  align-self: flex-start;
+}
+
+#sec3 #pic-box div #text-box{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#sec3 #pic-box div #text-box span{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#sec3 #pic-box div #text-box p{
+  width: 430px;
+  font-weight: bold;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+#sec1{
+  width: 1440px;
+  height: 966px;
+  position: relative;
+}
+
+#sec1 img{
+  position: absolute;
+}
+
+#sec1 #title1{
+  left: 155px;
+  top: 118px;
+}
+
+#sec1 #title2{
+  right: 156px;
+  top: 111px;
+}
+
+#sec1 #frame {
+  width: 756px;
+  height: 438px;
+  background-color: #fff;
+  position: relative;
+  left: 76px;
+  top: 252px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec1 #frame #play {
+  background: url(../img/play.png);
+  width: 147px;
+  height: 156px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#sec1 span{
+  position: absolute;
+  font-size: 26px;
+  font-weight: 900;
+  color: #4e171b;
+  right: 126px;
+  top: 376px;
+}
+
+#sec1 #text-box{
+  width: 756px;
+  position: absolute;
+  left: 80px;
+  top: 735px;
+}
+#sec1 #text-box p{
+  color: #12100d;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#sec1 #sec1-arrow{
+  transform: rotate(180deg);
+  position: absolute;
+  top: 495px;
+  right: 207px;
+  cursor: pointer;
+}
+
+#sec1 #sec1-toggle {
+  width: 130px;
+  height: 25px;
+  position: absolute;
+  right: 242px;
+  top: 498px;
+  display: flex;
+  justify-content: space-between;
+}
+#sec1 #sec1-toggle div{
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  border: 11px solid #4e171b;
+  background-color: white;
+  cursor: pointer;
+}
+
+#sec1 #sec1-toggle .toggle-on{
+  border: 5.5px solid #4e171b;
+}
+

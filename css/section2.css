@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+#sec2{
+  width: 1440px;
+  height: 667px;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+#sec2 img{
+  position: absolute;
+}
+
+#sec2 #l-quote{
+  top: 140px;
+  left: 200px;
+}
+
+#sec2 #r-quote{
+  bottom: 110px;
+  right: 100px;
+  transform: rotate(180deg);
+}
+
+#sec2 #about-us{
+  position: absolute;
+  top: 190px;
+}
+
+#sec2-text-box{
+  width: 900px;
+  font-weight: 600;
+  font-size: 22px;
+  position: relative;
+  top: 355px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#sec2-text-box p{
+  color: #12100d;
+}
